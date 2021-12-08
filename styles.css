@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Avenir Next Condensed";
+  src: url("https://s3.amazonaws.com/learn-verified/Avenir+Next+Condensed.ttc");
+}
+
+body {
+  background-color: grey
+ }
+
+.div-center {
+  text-align: center;
+}
+
+.div-container {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+div.div-container div div.column {
+  width: 33%;
+  display: inline-block;
+}
+
+.small {
+  width: 100%;
+  height: 100%;
+}
+
+
+.div-table {
+  margin-top: 5%;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+div.div-table table {
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+}
+
+div.div-table tr, td {
+    border: 1px solid black;
+}
+
+
+
+div.div-container div.column {
+    width: 100%;
+    margin-top: 5%;
+    font-size: 2em;
+}
+
+.div-container div:last-child {
+    font-size: 2em;
+}
+
